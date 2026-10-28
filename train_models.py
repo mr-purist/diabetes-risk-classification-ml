@@ -1,7 +1,7 @@
 """
 Diabetes Risk Classification - Model Training and Evaluation Pipeline
 BITS Pilani - M.Tech (AIML) - Machine Learning Assignment 2
-Student: Mayank Gupta (mayankcse10@gmail.com)
+Student: Mayank Gupta (BITS ID: 2026AK05256)
 Random State: 26
 """
 
