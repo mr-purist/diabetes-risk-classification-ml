@@ -225,6 +225,7 @@ if selected_option == "Compare All 5 Models":
                 })
     
     comp_df = pd.DataFrame(comparison_records)
+    comp_df.index = range(1, len(comp_df) + 1)
     
     # Styled dataframe display using native Streamlit configuration
     st.dataframe(
@@ -360,4 +361,6 @@ else:
 # -----------------------------------------------------------------------------
 with st.expander("🔍 Inspect Active Test Dataset Sample"):
     st.markdown(f"**Total Records:** `{active_df.shape[0]}` | **Features:** `21` | **Target:** `Diabetes_binary`")
-    st.dataframe(active_df.head(10), use_container_width=True)
+    sample_display = active_df.head(10).copy()
+    sample_display.index = range(1, len(sample_display) + 1)
+    st.dataframe(sample_display, use_container_width=True)
