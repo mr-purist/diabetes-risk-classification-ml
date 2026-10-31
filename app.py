@@ -1,6 +1,6 @@
 """
 Interactive Diabetes Risk Classification Dashboard
-BITS Pilani - M.Tech (AIML) - Machine Learning Assignment 2
+BITS Pilani - M.Tech (AIML) - Machine Learning (AIMLZG565) Assignment 2
 Student: Mayank Gupta (BITS ID: 2026AK05256)
 Random State: 26
 """

@@ -1,9 +1,8 @@
 # Diabetes Risk Classification Using Machine Learning Classifiers
 
-**Course**: Machine Learning (Assignment - 2)  
-**Program**: M.Tech (AIML), Work Integrated Learning Programmes Division, BITS Pilani  
+**Course**: Machine Learning (AIMLZG565) - Assignment 2  
 **Student Name**: Mayank Gupta  
-**BITS Student ID**: 2026AK05256  
+**BITS ID**: 2026AK05256  
 **Random State**: 26  
 
 ---
@@ -35,7 +34,7 @@ By comparing **5 distinct supervised classification paradigms** (Logistic Regres
 | **1** | `HighBP` | Binary | 0, 1 | 0 = No high blood pressure; 1 = High blood pressure diagnosed |
 | **2** | `HighChol` | Binary | 0, 1 | 0 = Normal cholesterol; 1 = High cholesterol diagnosed |
 | **3** | `CholCheck` | Binary | 0, 1 | 0 = No cholesterol check in past 5 years; 1 = Cholesterol checked |
-| **4** | `BMI` | Continuous | 12 – 98 | Body Mass Index ($	ext{kg}/	ext{m}^2$), primary obesity indicator |
+| **4** | `BMI` | Continuous | 12 – 98 | Body Mass Index ($\text{kg}/\text{m}^2$), primary obesity indicator |
 | **5** | `Smoker` | Binary | 0, 1 | Smoked $\ge 100$ cigarettes in entire lifetime (0 = No, 1 = Yes) |
 | **6** | `Stroke` | Binary | 0, 1 | Patient history of stroke (0 = No, 1 = Yes) |
 | **7** | `HeartDiseaseorAttack` | Binary | 0, 1 | History of coronary heart disease or myocardial infarction (0 = No, 1 = Yes) |
@@ -52,7 +51,7 @@ By comparing **5 distinct supervised classification paradigms** (Logistic Regres
 | **18** | `Sex` | Binary | 0, 1 | Biological sex (0 = Female, 1 = Male) |
 | **19** | `Age` | Ordinal | 1 – 13 | 13-level age category (1 = 18–24, 5 = 40–44, 9 = 60–64, 13 = 80+) |
 | **20** | `Education` | Ordinal | 1 – 6 | Education level completed (1 = None/Kindergarten, 4 = High School, 6 = College 4+ yrs) |
-| **21** | `Income` | Ordinal | 1 – 8 | Household income scale (1 = $<\$10	ext{k}$, 5 = $\$25	ext{k}	ext{–}\$35	ext{k}$, 8 = $\ge \$75	ext{k}$) |
+| **21** | `Income` | Ordinal | 1 – 8 | Household income scale (1 = $<\$10\text{k}$, 5 = $\$25\text{k}\text{–}\$35\text{k}$, 8 = $\ge \$75\text{k}$) |
 | **T** | **`Diabetes_binary`** | **Binary Target** | **0, 1** | **0 = Non-Diabetic; 1 = Prediabetic / Diabetic** |
 
 ---
@@ -60,6 +59,7 @@ By comparing **5 distinct supervised classification paradigms** (Logistic Regres
 ## c. GitHub Repository Link [1 Mark]
 
 * **Public GitHub Repository**: [https://github.com/mr-purist/diabetes-risk-classification-ml](https://github.com/mr-purist/diabetes-risk-classification-ml)
+* **Live Streamlit Application**: [https://diabetes-risk-classification-ml-2026ak05256.streamlit.app](https://diabetes-risk-classification-ml-2026ak05256.streamlit.app)
 
 The repository contains:
 * `app.py`: Complete interactive Streamlit frontend application.
