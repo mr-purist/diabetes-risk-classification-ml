@@ -6,6 +6,9 @@ Random State: 26
 """
 
 import os
+import warnings
+
+warnings.filterwarnings("ignore")
 import joblib
 import numpy as np
 import pandas as pd
